@@ -44,92 +44,24 @@ export default function Home() {
       <header>
         <div className={styles.header}>
           <h1>
-            <Image src={Logo} alt="" height="52" width="52" />
           </h1>
-          <h1>AUTORIZAÇÃO ONLINE</h1>
+          <h1>Nova Advocacia</h1>
         </div>
       </header>
 
       <main>
         <div className={styles.blocks}>
-          <div>
-            <Image src={Image1} alt="" />
-          </div>
-
           <div className={styles.block3}>
-            <h3>Praticidade</h3>
-            <h4>atendimento, assinatura e pagamento online.</h4>
-            <p>
-              <Link href="/moreinfo">
-                <button>mais informações</button>
-              </Link>
-            </p>
-          </div>
-
-          <div>
-            <Image src={Image2} alt="" />
-          </div>
-
-          <div className={styles.block2}>
-            <h3>Segurança</h3>
-            <h4>Docs assinados na núvem com biometria.</h4>
-            <p>
-              <Link href="/textme">
-                <button>mais informações</button>
-              </Link>
-            </p>
-          </div>
-
-          <div>
-            <Image src={Image3} alt="" />
-          </div>
-          <div className={styles.block1}>
-            <h3>Economia</h3>
-            <h4>Sem limitações de atendimentos.</h4>
-            <p>
-              <Link href="/viewplans">
-                <button>mais informações</button>
-              </Link>
-            </p>
-          </div>
-
-          <div>
-            <Image src={Image4} alt="" />
           </div>
           <div className={styles.block2}>
-            <h3>Atuação</h3>
-            <h4>Configurável para múltiplas áreas.</h4>
-            <p>
-              <Link href="/textme">
-                <button>mais informações</button>
-              </Link>
-            </p>
-          </div>
-
-          <div>
-            <Image src={Image5} alt="" />
-          </div>
-          <div className={styles.block3}>
-            <h3>Planos</h3>
-            <h4>Iindividuais, escritórios e empresarial.</h4>
-            <p>
-              <Link href="/moreinfo">
-                <button>mais informações</button>
-              </Link>
-            </p>
-          </div>
-
-          <div>
-            <Image src={Image6} alt="" />
           </div>
           <div className={styles.block1}>
-            <h3>Gestão</h3>
-            <h4>De autorizações, pagamentos e clientes.</h4>
-            <p>
-              <Link href="/viewplans">
-                <button>mais informações</button>
-              </Link>
-            </p>
+          </div>
+          <div className={styles.block2}>
+          </div>
+          <div className={styles.block3}>
+          </div>
+          <div className={styles.block1}>
           </div>
         </div>
       </main>
@@ -137,13 +69,13 @@ export default function Home() {
       <footer>
         <div className={styles.footer}>
           <div>
-            <a>autorizacao.adv.br</a>
+            <a>aaaa.aaa.br</a>
           </div>
           <div>
-            <a>dev.rodneyrinaldi.com</a>
+            <a>bbbb.bbb.com</a>
           </div>
           <div>
-            <a>adv.rodneyrinaldi.com</a>
+            <a>cc.ccccc.com</a>
           </div>
         </div>
       </footer>
