@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100vw;
+  min-height: 100vh;
+  color: #ffffff;
+  background-color: #637afc;
+}
+.container h3 {
+  padding: 40px 0 20px;
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+}
+.container h4 {
+  height: 100px;
+  padding: 10px 14px;
+  font-weight: 300;
+  font-size: 1.7rem;
+  line-height: 1.4;
+  text-align: center;
+}
+.container p {
+  height: 80px;
+  padding-top: 40px;
+  text-align: center;
+}
+.container p button {
+  align-self: center;
+  padding: 8px 36px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  text-decoration: none;
+  border-radius: 25px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background-color: #637afc;
+}
+.container button:hover {
+  background-color: #4157d381;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
