@@ -1,14 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import Logo from "../../../public/favicon.png";
 import Whats from "../../../public/whatsapp.png";
+import Logo from "../../assets/oab-logo.png";
 import Image1 from "../../assets/image1.png";
-import Image2 from "../../assets/image2.png";
-import Image3 from "../../assets/image3.png";
-import Image4 from "../../assets/image4.png";
-import Image5 from "../../assets/image5.png";
-import Image6 from "../../assets/image6.png";
 import styles from "./index.module.css";
 
 const wapp =
@@ -44,39 +39,56 @@ export default function Home() {
       <header>
         <div className={styles.header}>
           <h1>
+            <Image src={Logo} alt="" height="48" width="118" />
           </h1>
-          <h1>Nova Advocacia</h1>
+          <h1>Congresso Nova Advocacia</h1>
         </div>
       </header>
 
       <main>
-        <div className={styles.blocks}>
-          <div className={styles.block3}>
+        <div className={styles.blocks}>          
+          <div className={styles.block1}>
+            <div>             
+              <Link href="https://www.sympla.com.br/evento/congresso-da-nova-advocacia-e-do-academico-de-direito-encontro-geral-das-comissoes-oab-santo-amaro/2237926?referrer=com.google.android.googlequicksearchbox">
+                <Image src={Image1} alt="" width={450}  height={450} />
+              </Link>
+            </div>
           </div>
           <div className={styles.block2}>
-          </div>
-          <div className={styles.block1}>
-          </div>
-          <div className={styles.block2}>
-          </div>
-          <div className={styles.block3}>
-          </div>
-          <div className={styles.block1}>
+            <h3>CONGRESSO</h3>
+            <p>
+              <Link href="/moreinfo">
+                <button>Palestras</button>
+              </Link>
+            </p>
+            <p>
+              <Link href="/moreinfo">
+                <button>Oficinas</button>
+              </Link>
+            </p>
+            <p>
+              <Link href="/moreinfo">
+                <button>unidades móveis</button>
+              </Link>
+            </p>
+            <p>
+              <Link href="/moreinfo">
+                <button>mais informações</button>
+              </Link>
+            </p>
           </div>
         </div>
       </main>
 
-      <footer>
-        <div className={styles.footer}>
-          <div>
-            <a>aaaa.aaa.br</a>
-          </div>
-          <div>
-            <a>bbbb.bbb.com</a>
-          </div>
-          <div>
-            <a>cc.ccccc.com</a>
-          </div>
+      <footer className={styles.footer}>  
+        <div>    
+          <a>https://www.oab-stoamaro.com.br/</a>
+        </div>
+        <div>
+          <a>https://www.aasp.org.br/</a>
+        </div>
+        <div>
+          <a>https://italo.com.br/</a>
         </div>
       </footer>
     </div>

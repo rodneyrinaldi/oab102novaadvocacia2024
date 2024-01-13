@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../../../public/favicon2.png";
+import Logo from "../../assets/oab-logo.png";
 import styles from "./index.module.css";
 
 export default function MoreInfo() {
@@ -8,24 +8,22 @@ export default function MoreInfo() {
     <main className={styles.container}>
       <div className={styles.row1}>
         <div>
-          <Image src={Logo} alt="" height="96" width="96" />
+          <Image src={Logo} alt="" height="48" width="118" />
         </div>
         <div>
-          <h3>autorizacao</h3>
-          <h3>online</h3>
+          <h3>Congresso Nova Advocacia</h3>
+          <h3>OAB Santo Amaro</h3>
         </div>
       </div>
 
       <div className={styles.row2}>
         <h4>Advogado</h4>
         <p>
-          Conquiste sua segurança necessária para trabalhar com tranquilidade.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
         </p>
         <p>
-          Disponibilize e gerencie com agilidade os contratos, procurações e
-          controle seus pagamentos.
+        Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
         </p>
-        <p>Eficiência e qualidade a por um baixo investimento.</p>
       </div>
 
       <div className={styles.row3}>
