@@ -38,9 +38,9 @@ export default function Home() {
       </div> */}
       <header>
         <div className={styles.header}>
-          <h1>
-            <Image src={Logo} alt="" height="48" width="118" />
-          </h1>
+          <div>
+            <Image src={Logo} alt="" height="60" width="180" />
+          </div>
           <h1>Congresso Nova Advocacia</h1>
         </div>
       </header>
@@ -48,31 +48,31 @@ export default function Home() {
       <main>
         <div className={styles.blocks}>          
           <div className={styles.block1}>
-            <div>             
+            <div className={styles.img1}>            
               <Link href="https://www.sympla.com.br/evento/congresso-da-nova-advocacia-e-do-academico-de-direito-encontro-geral-das-comissoes-oab-santo-amaro/2237926?referrer=com.google.android.googlequicksearchbox">
-                <Image src={Image1} alt="" width={450}  height={450} />
+                <Image src={Image1} alt="" width={400}  height={400} />
               </Link>
             </div>
           </div>
           <div className={styles.block2}>
             <h3>CONGRESSO</h3>
             <p>
-              <Link href="/moreinfo">
+              <Link href="/talk">
                 <button>Palestras</button>
               </Link>
             </p>
             <p>
-              <Link href="/moreinfo">
-                <button>Oficinas</button>
+              <Link href="/speakers">
+                <button>Palestrantes</button>
               </Link>
             </p>
             <p>
-              <Link href="/moreinfo">
+              <Link href="/info">
                 <button>unidades móveis</button>
               </Link>
             </p>
             <p>
-              <Link href="/moreinfo">
+              <Link href="/info">
                 <button>mais informações</button>
               </Link>
             </p>
