@@ -2,13 +2,17 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import Whats from "../../../public/whatsapp.png";
+import Sign from "../../../public/signup.png";
 import Logo from "../../assets/oab-logo.png";
 import Image1 from "../../assets/image1.png";
 import styles from "./index.module.css";
 
 const wapp =
-  "https://api.whatsapp.com/send?phone=+551131646843&text=Olá, gostaria de obter maiores informações sobre esta solução. Aguardo um retorno. Obrigado";
+  "https://api.whatsapp.com/send?phone=+5511952230742&text=Olá, gostaria de obter maiores informações sobre este evento. Aguardo um retorno. Obrigado";
 
+const sign =
+"https://www.sympla.com.br/evento/congresso-da-nova-advocacia-e-do-academico-de-direito-encontro-geral-das-comissoes-oab-santo-amaro/2237926?referrer=com.google.android.googlequicksearchbox";
+  
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -29,6 +33,11 @@ export default function Home() {
       <div className={!isScrolled ? styles.whatsapp : styles.whatsappalt}>
         <Link href={wapp} target="_blank" rel="noreferrer">
           <Image src={Whats} alt="" height="42" width="42" />
+        </Link>
+      </div>
+      <div className={!isScrolled ? styles.booking : styles.bookingalt}>
+        <Link href={sign} target="_blank" rel="noreferrer">
+          <Image src={Sign} alt="" height="42" width="42" />
         </Link>
       </div>
       {/* <div className={styles.whatsapp}>

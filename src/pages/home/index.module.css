@@ -162,7 +162,7 @@
 }
 
 
-.whatsapp {
+.booking {
   position: fixed;
   top: 180px;
   right: 20px;
@@ -172,8 +172,7 @@
   animation-name: upmoviment;
   animation-duration: 4s;
 }
-
-.whatsappalt {
+.bookingalt {
   position: fixed;
   top: 20px;
   right: 20px;
@@ -183,6 +182,28 @@
   animation-name: downmoviment;
   animation-duration: 4s;
 }
+
+.whatsapp {
+  position: fixed;
+  top: 230px;
+  right: 20px;
+  color: #fff;
+  border-radius: 50%;
+  z-index: 100;
+  animation-name: upmoviment;
+  animation-duration: 4s;
+}
+.whatsappalt {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  color: #fff;
+  border-radius: 50%;
+  z-index: 100;
+  animation-name: downmoviment;
+  animation-duration: 4s;
+}
+
 
 @keyframes upmoviment {
   0% {

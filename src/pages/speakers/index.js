@@ -1,12 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "../../assets/oab-logo.png";
-import Panel1 from "../../assets/panel1.jpeg";
-import Panel2 from "../../assets/panel2.jpeg";
-import Panel3 from "../../assets/panel3.jpeg";
-import Panel4 from "../../assets/panel4.jpeg";
-import Panel5 from "../../assets/panel5.jpeg";
-import Panel6 from "../../assets/panel6.jpeg";
+import Speakers from "../../assets/speakers.png";
 import styles from "./index.module.css";
 
 export default function Talk() {
@@ -24,12 +19,9 @@ export default function Talk() {
 
       <div className={styles.row2}>
         <h4>PALESTRANTES</h4>
-        <Image src={Panel1} alt="" height="330" width="330" />
-        <Image src={Panel2} alt="" height="330" width="330" />
-        <Image src={Panel3} alt="" height="330" width="330" />
-        <Image src={Panel4} alt="" height="330" width="330" />
-        <Image src={Panel5} alt="" height="330" width="330" />
-        <Image src={Panel6} alt="" height="330" width="330" />
+        {/* <Image src={Speakers} alt="" height="3549" width="2292" /> */}
+        {/* <Image src={Speakers} alt="" height="993" width="641" /> */}
+        <Image src={Speakers} alt="" height="496" width="320" />
       </div>
 
       <div className={styles.row3}>
