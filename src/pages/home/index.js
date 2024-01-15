@@ -76,8 +76,8 @@ export default function Home() {
               </Link>
             </p>
             <p>
-              <Link href="/info">
-                <button>unidades móveis</button>
+              <Link href="/workshops">
+                <button>oficinas</button>
               </Link>
             </p>
             <p>
